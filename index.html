@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Соціологічне опитування</title>
+</head>
+<body>
+    <h1>Проблема безробіття молодих спеціалістів</h1>
+    <p>Шановний респондент
+    Просимо вас взяти участь у соціологічному дослідженні, 
+    проведеному з метою з'ясування ставлення  молоді до проблеми безробіття 
+    молодих фахівців. Вам буде запропоновано декілька питань. 
+    Виберіть варіант відповіді, найбільш відповідний вашу думку. 
+    Анонімність і конфіденційність отриманої інформації гарантуємо.</p>
+    
+    <br><b>1. Ваша стать</b>
+    <form action="https://formspree.io/osetrov92@ukr.net" method="post">
+  <select name="your sex">
+    <option value="male">Чоловіча</option>
+    <option value="female">Жіноча</option>
+    <option value="other">Інше</option>
+  </select>
+     <br><b>2. Ваш вік</b>
+     <br><input type="text">
+     <br><b>3. Ваша освіта</b>
+     
+     <br><label><input type="radio" name="answer" value="1">Середня</label>
+     <br><label><input type="radio" name="answer" value="2">Неповна вища</label>
+     <br><label><input type="radio" name="answer" value="3">Вища</label>
+     
+     <br><b>4. Як Ви вважаєте, який рівень безробіття сьогодні в Україні?</b>
+     <br><label><input type="checkbox" name="low" value="low"> Низький</label><br> 
+     <label><input type="checkbox" name="normal" value="normal" checked> Нормальний (природній)</label><br> 
+     <label><input type="checkbox" name="high" value="high"> Високий</label>
+     
+     <br><b>5. Які категорії людей, на Вашу думку, сьогодні більше за інших схильні до безробіття?</b>
+     <br><label><input type="radio" name="answer" value="young people">Молоді люди</label>
+     <br><label><input type="radio" name="answer" value="middle aged people">люди середнього віку (від 30 до 45 років)</label>
+     <br><label><input type="radio" name="answer" value="pensioners" checked>люди старшого віку (від 45 до 55 років)</label>
+     <br><b>6. Ваші плани після закінчення вузу?</b>
+     <br>
+    <select name="your future plan">
+    <option value="find a job">Буду працювати</option>
+    <option value="studing">продовжу навчання у своєму вузі (магістратура, аспірантура)</option>
+    <option value="army">піду служити в армію</option>
+    <option value="go abroad">поїду за кордон</option>
+  </select>
+    <br><b>7. При працевлаштуванні ви розраховуєте на:</b> 
+    <br><label><input type="checkbox" name="answer" value="promotion of relatives">Сприяння родичів і друзів</label>
+    <br><label><input type="checkbox" name="answer" value="educational institution assistance">допомогу ВНЗ</label>
+    <br><label><input type="checkbox" name="answer" value="employment service">служба зайнятості</label>
+    <br><label><input type="checkbox" name="answer" value="own abilities">власні здібності</label>
+    <br><label><input type="checkbox" name="answer" value="favorable situation">збіг обставин</label>
+    <br><b>8. Що для Вас першочергово при виборі місця роботи?</b>
+    <br><label><input type="checkbox" name="answer">рівень пропонованого заробітку</label>
+    <br><label><input type="checkbox" name="answer">престижність фірми</label>
+    <br><label><input type="checkbox" name="answer">соціально-психологічний клімат в організації</label>
+    <br><label><input type="checkbox" name="answer">сфера діяльності</label>
+    <br><label><input type="checkbox" name="answer">можливість самовираження</label>
+    <br><label><input type="checkbox" name="answer">можливість професійного росту</label>
+    <br><label><input type="checkbox" name="answer">отримання практичного досвіду</label>
+    <br><label><input type="checkbox" name="answer">гнучкий графік роботи</label>
+    <br><b>9. чи розцінює Ви заняття підприємницькою діяльністю як альтернативу для себе в разі неможливості працевлаштуватися?</b>
+    <br>
+    <select name="job">
+        <option value="yes">Так</option>
+        <option value="no">Ні</option>
+        <option value="i don't know">Важко відповісти</option>
+        </select>
+        <br><b>10. Якби ви організовували власний бізнес, чим би ви займалися?</b>
+        <br><textarea name="text" id="comment-field" cols="50" rows="10"
+        placeholder="Висловіть свою точку зору"></textarea>
+     <br><input type="submit" value="Відправити">
+     <input type="submit" value="Скинути">
+</form>
+</body>
+</html>
